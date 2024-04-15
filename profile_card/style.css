@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+  --primary-color: #ff6b6b;
+  --bg-color: #fff5f5;
+  --primary-accent: #ff8787;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: 'Rubik', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bg-color);
+}
+
+.card-box {
+  max-width: 350px;
+  min-height: 400px;
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+}
+
+.profile-img {
+  width: 150px;
+  border-radius: 50%;
+  border: 3px solid var(--primary-color);
+  padding: 3px;
+}
+
+.profile-name {
+  font-size: 26px;
+}
+
+.occupation {
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: var(--primary-color);
+}
+
+.description {
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #495057;
+}
+
+/* Social Media */
+/* .social-media {
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.social-list {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.social-list:hover {
+  color: #ff8787;
+} */
+
+/* Contact Box */
+.contact-box {
+  background-color: var(--primary-color);
+  margin: -40px -20px;
+  margin-top: 0;
+  padding: 35px;
+  padding-top: 20px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.contact-title {
+  font-size: 24px;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+.contact-arrow {
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+.email, .mobile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  color: #fff;
+  margin-bottom: 5px;
+  font-size: 15px;
+}
